@@ -11,8 +11,8 @@ class Telegram():
     def __init__(self):
         self.this_year = "%04d" % (datetime.today().year)
         self.p = re.compile(r'(\w+)\s+(\w+)\s+(\d\d\d\d)\s+(\d\d)')
-        self.token = '1828911985:AAGJDTwawT7rgaUslKNhrA4EyBhdj8wTz_k'
-        self.chat_id = '778372474'
+        self.token = #set your token
+        self.chat_id = # set your id
         self.bot = telegram.Bot(self.token)
         self.only_one_chrome = 0
         self.trying = 0
